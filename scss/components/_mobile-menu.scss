@@ -1,0 +1,29 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-brand-white);
+  transform: translateX(-100%);
+
+  .menu-btn-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      display: block;
+      stroke: var(--color-brand-dark);
+    }
+  }
+
+  &.is-open {
+    transform: translateX(0);
+  }
+}
