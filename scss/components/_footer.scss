@@ -1,5 +1,5 @@
 .footer {
-  padding: 56px 100px;
+  padding: 56px 0;
   position: relative;
   background-image: url('/Images/footer-background.png');
   background-color: var(--color-brand-dark);
@@ -26,9 +26,19 @@
   flex-grow: 1;
 }
 
-.address-list,
-.address-info {
+.address-list {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
+}
+
+.footer__link {
+  color: var(--color-brand-white);
+  font-size: 16px;
+  line-height: 1.18;
+  text-decoration: none;
+  font-style: normal;
+  transition: color 0.3s;
 }
 
 .address-link {
