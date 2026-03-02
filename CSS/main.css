@@ -87,7 +87,7 @@ a {
 }
 
 .section {
-  padding: 96px 0;
+  padding: 48px 0;
 }
 
 .container {
@@ -231,7 +231,7 @@ a {
 .hero-section__container {
   width: 319px;
   height: 184px;
-  padding-left: 189px;
+  padding-left: 105px;
 }
 @media screen and (min-width: 768px) {
   .hero-section__container {
@@ -282,7 +282,7 @@ a {
 }
 
 .about-section {
-  padding-bottom: 80px;
+  padding-bottom: 128px;
 }
 .about-section__list {
   display: -webkit-box;
@@ -631,6 +631,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   overflow: visible;
+  margin-top: 48px;
 }
 
 .footer-container {
@@ -671,6 +672,7 @@ a {
   font-style: normal;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+  padding-bottom: 16px;
 }
 
 .address-link {
@@ -679,6 +681,7 @@ a {
   line-height: 1.18;
   text-decoration: none;
   font-style: normal;
+  padding-bottom: 16px;
 }
 
 .address-social {
@@ -693,6 +696,7 @@ a {
   line-height: 1.8;
   font-style: normal;
   text-decoration: none;
+  padding-bottom: 16px;
 }
 
 .address-copyright {
@@ -923,7 +927,8 @@ a {
   margin: 0 auto;
   text-align: center;
 }
-.form-terms__link {
+.form-terms__link,
+.form-terms .form-terms-link {
   color: var(--color-brand-gray);
   text-underline-offset: 1px;
 }/*# sourceMappingURL=main.css.map */
